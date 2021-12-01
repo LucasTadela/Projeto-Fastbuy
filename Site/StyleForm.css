@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(82, 74, 74);
+}
+h1{
+    color: lightyellow;
+    display:flex;
+    padding: 0 8px;
+    font-size: 50px;
+    text-align: center;
+    place-content: center;
+}
+.container{
+    display: block;
+    justify-content: center;
+    padding:0 8px;
+    margin-left: 39%;
+}
+
+div{
+    color: white;
+    display: -moz-popup;
+}
+form div{
+   display:flexbox;
+   align-items: center;
+}
+form p{
+    font-size: 30px;
+    text-align: center;
+
+}
+.verdes{
+    color: lightgreen;
+    font-size: 20px;
+}
+.condimentos{
+    color: yellowgreen;
+    font-size: 20px;
+}
+form .padronizado{
+    color: whitesmoke
+    font-size: 30px;
+}
+
+div label{
+    color: lightblue;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+div select{
+    background: lightblue;
+}
+
+.submit{
+   background: darkseagreen;
+   border-radius: 5px;
+   font-size: 15px;
+   height: 40px;
+   width: 80px;
+   margin-top: 20px;
+   margin-left: 50%;
+}
+

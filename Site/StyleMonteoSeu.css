@@ -1,53 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
-:root{
-    --main-color: #eaa023;
-    --dark: #0c1023;
-    --dark-light: #000000;
-    --white: #ffffff;
-    --white-light:#c8c8c8;
-    --shadow: 0 0 15px rgba(0,0,0,0.25);
-    --cursive-font: 'Dancing Script', cursive;
-    scroll-behavior: smooth;
-}
-
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    outline: none;
-    background-color: var(--dark-light);
+    background-color: black;
+}
+img{
+    display: block;
+    max-width: 200px;
 }
 
-h1{
-    font-weight: 700;
-    color: var(--white-light);
-}
+h1{color:lightblue; font-size: 50px;}
+h2{color:lightblue; font-size: 25px;}
+h3{color:lightblue; font-size: 20px;}
+h4{color: lightblue; font-size: 12px}
+p{color:lightblue; font-size: 10px;}
 
-h2{
-    font-weight: 600;
-    color: var(--white-light);
-}
-
-header .container{
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 0 8px;
-    background-color: var(--dark-light);
+.flex-container {
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    display:flex;
     justify-content: center;
 }
+.flex{display: flex;}
 
-body{
-    font-size: 16px;
-    line-height: 1.5;
-    -webkit-tap-highlight-color: transparent;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    color: var(--white-light);
+.justify-content-between{justify-content: space-between;}
+
+.justify-content{justify-content: center;}
+
+.align-items-center{align-items: center;}
+
+.container{max-width: 1240px; margin: 0 auto; padding: 0 8px;}
+
+.stretch {align-items: stretch;}
+
+.column{flex-direction: column;}
+
+.Justify-container {max-width: 50%; display: flex; background-color: black;}
+ 
+.footer{background-color: blanchedalmond;}
+
+.row {flex-direction: row;}
+
+.home-section .home-bg{
+    position: absolute;
+    left: 0;
+    top: 0; 
+    height: 100%;
+    width: 100%;
+    background-image: url('./imagens/header\ 3.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+    animation: zoomInOut 20s ease infinite;
 }
-
-section{
-    justify-content: center;
-
+header nav a{
+    padding: 0 24px;
+    border-right: 2px #000 solid;
+}
+button{
+    width: 50px;
+    height: 50px;
 }
